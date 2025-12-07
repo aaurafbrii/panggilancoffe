@@ -1,0 +1,252 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #6f4e37, #3c2f2f);
+    margin: 0;
+    padding: 0;
+    color: #2b1d13;
+}
+
+/* Header */
+.header {
+    background: #f5f3f0;
+    color: #4b2e1e;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+.header h2 { margin: 0; font-size: 26px; }
+
+.header-buttons {
+    position: absolute;
+    right: 25px;
+    top: 22px;
+    display: flex;
+    gap: 10px;
+}
+
+.cart-btn {
+    background: #a67c52;
+    color: white;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.cart-btn:hover {
+    background: #8b5e34;
+    transform: translateY(-2px);
+}
+
+.logout {
+    background: #3c2f2f;
+    color: white;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-weight: 600;
+}
+.logout:hover {
+    background: #2b1d13;
+    transform: translateY(-2px);
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    justify-content: center;
+    background: #ede6e0;
+    border-bottom: 3px solid #6f4e37;
+}
+.tab {
+    flex: 1;
+    text-align: center;
+    padding: 15px 0;
+    cursor: pointer;
+    font-weight: 600;
+    color: #4b2e1e;
+    border-top: 3px solid transparent;
+    transition: 0.3s;
+}
+.tab:hover { background: #d9c6a5; }
+.tab.active {
+    background: #fff;
+    color: #6f4e37;
+    border-top: 3px solid #6f4e37;
+}
+
+/* Content */
+.content {
+    background: #fff;
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+h3 {
+    color: #6f4e37;
+    margin-bottom: 15px;
+}
+
+/* Filter */
+.filter-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.filter-form select {
+    padding: 8px 12px;
+    border: 2px solid #a67c52;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    background: #fffaf5;
+    transition: 0.3s;
+}
+.filter-form select:focus {
+    border-color: #6f4e37;
+    box-shadow: 0 0 5px rgba(111,78,55,0.4);
+}
+
+/* Menu */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+.menu-card {
+    background: #f8f3ef;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 15px;
+    transition: 0.3s;
+}
+.menu-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.menu-image img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+.no-image {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    font-size: 14px;
+    background: #f0e5db;
+}
+
+.menu-info { padding: 10px 15px; }
+
+.menu-info h4 {
+    margin: 10px 0 5px;
+    color: #4b2e1e;
+    font-size: 18px;
+}
+.menu-info .category {
+    font-size: 14px;
+    color: #4b2e1e;
+    background: #e8d7c0;
+    padding: 3px 8px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+.menu-info .price {
+    color: #2b1d13;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Button */
+button {
+    background: #6f4e37;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+button:hover {
+    background: #5b3c2e;
+    transform: translateY(-2px);
+}
+
+/* Status */
+.status {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.status.pending {
+    background: #ffe5e5;
+    color: #b30000;
+    border: 1px solid #ff4d4d;
+}
+.status.diproses {
+    background: #e0f0ff;
+    color: #004080;
+    border: 1px solid #3399ff;
+}
+.status.selesai {
+    background: #e5ffe5;
+    color: #006600;
+    border: 1px solid #33cc33;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #f5f3f0;
+    font-size: 14px;
+}
+
+/* Table - Pesanan */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+table th {
+    background: #7b4b27;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+}
+table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    color: #3c2f2f;
+}
+
+#ordersTab {
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
