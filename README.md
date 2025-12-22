@@ -55,20 +55,29 @@ Tabel:
 2. Pindahkan folder ke direktori server lokal (misal htdocs di XAMPP)
 3. Import database
    - Buka phpMyAdmin
-   - Buat database baru, misal panggilan_coffe
-   - Import file SQL (panggilancoffe.sql)
+   - Buat database baru, misal coffe_order
+   - Import file SQL (coffe_order.sql)
 4. Konfigurasi koneksi
    - Buka config/database.php
    - Sesuaikan username, password, dan nama database
 5. Akses aplikasi melalui browser:
-   http://localhost/panggilancoffe
+   http://localhost/coffe_order
 
+🔐 Cara Login
+👨‍💼 Login Admin
+- username : admin123@gmail.com
+- password : admin123
+- akses : http://localhost/coffe_order/login.php
+
+👤 Login Customer
+- registrasi terlebih dahulu
+- masukkan username (email terdaftar) dan password
+  
 🧪 Penggunaan
 - Jalankan server lokal Anda
 - Tambah menu ke keranjang
 - Checkout pesanan
 - Admin dapat login dan mengelola data
 
-
-✨ Made with PHP by Aura Febrianti
+✨ Made with PHP by Aura Febrianti ✨
    
