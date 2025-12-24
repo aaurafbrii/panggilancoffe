@@ -18,7 +18,6 @@ HALAMAN KELOLA MENU ADMIN
 HALAMAN TAMBAH PELANGGAN BARU ADMIN
 ![image alt](https://github.com/aaurafbrii/panggilancoffe/blob/c8e35676834455e782ed77e02e6e6b0d013c907b/tambah%20pelanggan%20admin.png)
 
-kelola menu admin
 HALAMAN UTAMA PELANGGAN
 ![image alt](https://github.com/aaurafbrii/panggilancoffe/blob/7815174f4565e03215bb075e2975f5d7e70151b2/dashboard%20pelanggan%20aura.png)
 
