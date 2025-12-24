@@ -2,12 +2,26 @@
 
 HALAMAN LOGIN
 ![image alt](https://github.com/aaurafbrii/panggilancoffe/blob/2e1a6a047b8e59626c1126046bba4b1c1a34f625/LOGIN.png)
+
 HALAMAN REGISTER
 ![image alt](https://github.com/aaurafbrii/panggilancoffe/blob/2e1a6a047b8e59626c1126046bba4b1c1a34f625/register.png)
+
 HALAMAN UTAMA ADMIN
 ![image alt](https://github.com/aaurafbrii/panggilancoffe/blob/25b31cb071ede0e2dd9ecd3d6da6b72b2ddfa65a/dashboard%20admin.png)
+
+HALAMAN STATUS PESANAN PELANGGAN ( ADMIN )
+![image alt](https://github.com/aaurafbrii/panggilancoffe/blob/c8e35676834455e782ed77e02e6e6b0d013c907b/daftar%20pesanan%20pelanggan.png)
+
+HALAMAN KELOLA MENU ADMIN
+![image alt](https://github.com/aaurafbrii/panggilancoffe/blob/c8e35676834455e782ed77e02e6e6b0d013c907b/kelola%20menu%20admin.png)
+
+HALAMAN TAMBAH PELANGGAN BARU ADMIN
+![image alt](https://github.com/aaurafbrii/panggilancoffe/blob/c8e35676834455e782ed77e02e6e6b0d013c907b/tambah%20pelanggan%20admin.png)
+
+kelola menu admin
 HALAMAN UTAMA PELANGGAN
 ![image alt](https://github.com/aaurafbrii/panggilancoffe/blob/7815174f4565e03215bb075e2975f5d7e70151b2/dashboard%20pelanggan%20aura.png)
+
 HALAMAN STATUS PESANAN PELANGGAN
 ![image alt](https://github.com/aaurafbrii/panggilancoffe/blob/2e1a6a047b8e59626c1126046bba4b1c1a34f625/pesanan%20pelanggan%20aura.png)
 
