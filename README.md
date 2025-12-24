@@ -1,9 +1,14 @@
 # ☕ PanggilanKopi
 
+HALAMAN LOGIN
 ![image alt](https://github.com/aaurafbrii/panggilancoffe/blob/2e1a6a047b8e59626c1126046bba4b1c1a34f625/LOGIN.png)
+HALAMAN REGISTER
 ![image alt](https://github.com/aaurafbrii/panggilancoffe/blob/2e1a6a047b8e59626c1126046bba4b1c1a34f625/register.png)
+HALAMAN UTAMA ADMIN
 ![image alt](https://github.com/aaurafbrii/panggilancoffe/blob/25b31cb071ede0e2dd9ecd3d6da6b72b2ddfa65a/dashboard%20admin.png)
+HALAMAN UTAMA PELANGGAN
 ![image alt](https://github.com/aaurafbrii/panggilancoffe/blob/7815174f4565e03215bb075e2975f5d7e70151b2/dashboard%20pelanggan%20aura.png)
+HALAMAN STATUS PESANAN PELANGGAN
 ![image alt](https://github.com/aaurafbrii/panggilancoffe/blob/2e1a6a047b8e59626c1126046bba4b1c1a34f625/pesanan%20pelanggan%20aura.png)
 
 📍PanggilanKopi adalah aplikasi sistem pemesanan menu di coffee shop yang dirancang untuk memudahkan pelanggan memesan dan staf mengelola pesanan secara cepat dan efisien.
@@ -22,6 +27,7 @@ Fitur yang dibangun mencakup menu, pemesanan, keranjang pesanan, dan proses chec
 - Tambahkan item ke keranjang
 - Lihat total harga
 - Checkout pesanan
+- Lihat status pesanan
 
 👨‍💼 Admin
 - Kelola menu (tambahkan, edit, hapus)
